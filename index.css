@@ -120,61 +120,61 @@ img {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 430px) {
     main {
-        width: 90%; /* Make the main container responsive */
-        height: auto; /* Allow height to adjust automatically */
-        margin-top: 20px; /* Adjust margin for smaller screens */
+        width: 90%; 
+        height: auto; 
+        margin-top: 20px;
     }
 
     .socials {
-        width: 100%; /* Expand the width of social icons container */
-        height: auto; /* Allow height to adjust automatically */
-        flex-direction: row; /* Ensure icons are in a row */
-        justify-content: space-around; /* Space out the icons */
+        width: 100%; 
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
     .socials span i {
-        font-size: 18px; /* Slightly smaller icons */
+        font-size: 18px;
     }
 
     img {
-        width: 80px; /* Adjust the image size */
+        width: 80px;
     }
 
     .content {
-        font-size: 0.8rem; /* Slightly smaller font size for smaller screens */
-        margin-top: 10px; /* Adjust top margin */
-        margin-bottom: 20px; /* Adjust bottom margin */
+        font-size: 0.8rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     .btns {
-        flex-direction: column; /* Stack buttons vertically */
-        width: 100%; /* Full width for buttons */
+        flex-direction: column; 
+        width: 100%;
     }
 
     .btns button {
-        width: 90%; /* Adjust button width */
-        margin: 5px 0; /* Space out buttons vertically */
+        width: 90%; 
+        margin: 5px 0; 
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 430px) {
     .socials span i {
-        font-size: 16px; /* Further reduce icon size for very small screens */
+        font-size: 16px; 
     }
 
     img {
-        width: 70px; /* Further adjust image size */
+        width: 70px; 
     }
 
     .content {
-        font-size: 0.7rem; /* Further reduce font size */
-        margin-top: 5px; /* Adjust margins */
+        font-size: 0.7rem;
+        margin-top: 5px; 
         margin-bottom: 15px;
     }
 
     .btns button {
-        font-size: small; /* Reduce button font size */
+        font-size: small;
     }
 }
